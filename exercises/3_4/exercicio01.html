@@ -22,7 +22,7 @@
             padding: 5px;
         }
 
-        .img_01_contato {
+        .imgs {
             border: solid;
             margin: 30px;
         }
@@ -61,22 +61,38 @@
             left: 290px;
             color: beige;
         }
+
+        .artigo {
+            position: absolute;
+            left: 10%;
+            width: 1200px;
+            padding: 20px;
+        }
+
+        .paragraf{
+            position: relative;
+            left: 10%;
+            width: 800px;
+        }
     </style>
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
-                <li>Página Inicial</li>
-                <li>Sobre</li>
-                <li>Contato</li>
-            </ul>
+            <aside>
+                <ul>
+                    <li>Página Inicial</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
+                </ul>
+            </aside>
+
         </nav>
     </header>
 
     <main>
-        <article>
+        <article class="artigo">
             <header>
                 <Title>Fatos sobre o Stomatopoda</Title>
                 <h2>Fatos sobre o Stomatopoda</h2>
@@ -91,13 +107,15 @@
                     <p class="dot3">.</p>
                 </section>
 
-                <img class="img_01_contato" src="../3_4/images/olhos-visao-incrivel-camarao-mantis.jpg"
+                <img class="imgs" src="../3_4/images/olhos-visao-incrivel-camarao-mantis.jpg"
                     alt="Imagem com o Stomatopoda dizendo Fala meu camarada">
                 <br>
-                Stomatopoda (<i>Odontodactylus scyllarus</i>), chamados popularmente de tamarutacas ou de
-                lacraias-do-mar no Brasil, é uma ordem de crustáceos marinhos da subclasse Hoplocarida, que
-                agrupa cerca de 400 espécies, caracterizadas principalmente pela morfologia da segunda pata
-                torácica, que é modificada em apêndice subquelado, lembrando uma pata de louva-a-deus.
+                <p class="paragraf">
+                    Stomatopoda (<i>Odontodactylus scyllarus</i>), chamados popularmente de tamarutacas ou de
+                    lacraias-do-mar no Brasil, é uma ordem de crustáceos marinhos da subclasse Hoplocarida, que
+                    agrupa cerca de 400 espécies, caracterizadas principalmente pela morfologia da segunda pata
+                    torácica, que é modificada em apêndice subquelado, lembrando uma pata de louva-a-deus.
+                </p>
                 <td>
                     <table class="paragrafo1">
                         <tbody>
@@ -148,22 +166,22 @@
 
             <section>
                 <img src="../3_4/images/images.jpeg" alt="visão panoramica do animal">
-                <p>
+                <p class="paragraf">
                     Esse "pequeno" animal vive de baixo dos mares e pode vir a crescer até <strong>30 cm</strong>
                     Ele pode deduzir até 16 espectros de cores diferentes.
                 </p>
             </section>
             <section>
                 <img src="../3_4/images/Soco.png" alt="Imagem ilustrativa do soco do animal">
-                <p>
+                <p class="paragraf">
                     Ele consegue com suas pequenas garras atacar com a mesma <strong>velocidade de uma arma de fogo
                         de calibre 52</strong> com 15 Newtons de força.
-                </p>
+                </p class="paragraf">
             </section>
             <section>
                 <img src="../3_4/images/Saiu do aquario.png"
                     alt="imagem ilustrando o animal quebrando o aquario e pulando na cara do humano chato">
-                <p>
+                <p class="paragraf"> 
                     Infelizmente <del>ou felizmente</del> <strong>não podemos colocar ele num aquário com outros
                         animais</strong> pois ele sempre irá matá-los. Também tem o o risco dele quebrar o aquário e
                     nos matar.
@@ -176,13 +194,12 @@
                     <li>https://theoatmeal.com/comics/mantis_shrimp</li>
                 </ul>
             </section>
+            <section>
+                <h3>Veja esse animalzinho em ação: <a target="_blank"
+                        href="https://youtu.be/E0Li1k5hGBE?t=129">https://youtu.be/E0Li1k5hGBE?t=129</a> </h3>
+            </section>
         </article>
-        <section>
-            <h3>Veja esse animalzinho em ação: <a target="_blank" href="https://youtu.be/E0Li1k5hGBE?t=129">https://youtu.be/E0Li1k5hGBE?t=129</a> </h3>
-        </section>
-
     </main>
-
 </body>
 
 </html>
