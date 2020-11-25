@@ -7,4 +7,4 @@ A atividade proposta:<br>
   -Realizar o Pull Request.<br>
   -Dar merge nas modificações.<br>
 
-Turma 09, Emanoel Crithian.
+Turma 09, Emanoel Cristhian.
