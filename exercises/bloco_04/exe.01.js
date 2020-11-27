@@ -11,7 +11,7 @@ for(index = 0;index<numbers.length;index++){
 }
 */
 
-
+/*
 //Exercício 02
 let aux = 0;
 
@@ -20,3 +20,13 @@ for(index = 0;index<numbers.length;index++){
 }
 
 console.log(aux);
+*/
+
+// Execício 03
+let aux = 0;
+
+for(index = 0;index<numbers.length;index++){
+    aux+=numbers[index];
+}
+
+console.log(aux/numbers.length);
