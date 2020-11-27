@@ -33,7 +33,7 @@ for(index = 0;index<numbers.length;index++){
 console.log(aux/numbers.length);
 */
 
-
+/*
 // Exercício 04
 let aux = 0;
 
@@ -46,3 +46,13 @@ if(aux/numbers.length>20){
 } else{
     console.log("Valor menor que 20");
 }
+*/
+
+// Exercício 05
+let maior = numbers[0];
+for(index = 0;index<numbers.length;index++){
+    if(maior<numbers[index]){
+        maior = numbers[index];
+    }   
+}
+console.log(maior);
