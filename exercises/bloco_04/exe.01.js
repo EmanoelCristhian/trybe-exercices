@@ -22,6 +22,7 @@ for(index = 0;index<numbers.length;index++){
 console.log(aux);
 */
 
+/*
 // Execício 03
 let aux = 0;
 
@@ -30,3 +31,18 @@ for(index = 0;index<numbers.length;index++){
 }
 
 console.log(aux/numbers.length);
+*/
+
+
+// Exercício 04
+let aux = 0;
+
+for(index = 0;index<numbers.length;index++){
+    aux+=numbers[index];
+}
+
+if(aux/numbers.length>20){
+    console.log("Valor maior que 20");
+} else{
+    console.log("Valor menor que 20");
+}
