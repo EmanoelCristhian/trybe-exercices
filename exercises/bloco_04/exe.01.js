@@ -48,6 +48,7 @@ if(aux/numbers.length>20){
 }
 */
 
+/*
 // Exercício 05
 let maior = numbers[0];
 for(index = 0;index<numbers.length;index++){
@@ -56,3 +57,19 @@ for(index = 0;index<numbers.length;index++){
     }   
 }
 console.log(maior);
+*/
+
+// Exercício 06
+let cont = 0;
+
+for (let index = 0; index < numbers.length; index++) {
+    if( numbers[index] % 2 !== 0){
+        cont += 1;
+    }
+}
+
+if(cont===0){
+    console.log('Nenhum valor ímpra encontrado');
+} else{
+    console.log(cont);
+}
