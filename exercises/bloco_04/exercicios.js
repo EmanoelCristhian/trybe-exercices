@@ -59,6 +59,7 @@ for(index = 0;index<numbers.length;index++){
 console.log(maior);
 */
 
+/*
 // Exercício 06
 let cont = 0;
 
@@ -73,3 +74,4 @@ if(cont===0){
 } else{
     console.log(cont);
 }
+*/
